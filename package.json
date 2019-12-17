@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "operational-scripts start",
+    "build": "operational-scripts build --for production",
     "gen": "graphql-codegen --config codegen.yml"
   },
   "devDependencies": {
