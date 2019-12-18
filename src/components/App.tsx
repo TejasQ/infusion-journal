@@ -15,6 +15,7 @@ import { getLastWeek } from "../util/getLastWeek";
 
 const Container = styled.div`
   display: grid;
+  align-items: flex-start;
   align-content: flex-start;
   gap: ${space}px;
   grid-template-rows: auto auto;

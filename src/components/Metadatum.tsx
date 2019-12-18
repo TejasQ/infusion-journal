@@ -10,9 +10,12 @@ const Container = styled.div`
   ::before {
     content: attr(title);
     display: block;
-    background: #0003;
-    color: white;
     padding: ${space / 4}px ${space / 2}px;
+    background: #555;
+    color: white;
+    @media (prefers-color-scheme: dark) {
+      background: #0003;
+    }
   }
 `;
 

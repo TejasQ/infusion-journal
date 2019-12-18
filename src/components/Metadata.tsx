@@ -11,7 +11,8 @@ export const Metadata = styled.div`
   @media (min-width: ${breakpoints.tablet}px) {
     gap: ${space}px;
     margin: ${space * -1}px;
-    border-left: 1px solid #999;
+    border-left: 1px solid;
+    border-color: #aaa;
     grid-template-columns: auto;
   }
 
